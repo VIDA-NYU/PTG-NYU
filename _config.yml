@@ -3,9 +3,9 @@
 # # # # # # # #
 
 # Basic
-name:               "Kording Lab"
-title:              "Kording Lab at the University of Pennsylvania"
-description:        "The Kording Lab is a computational neuroscience and causality research group at the University of Pennsylvania."
+name:               "PTG project"
+title:              "Perceptually-enabled Task Guidance (PTG)"
+description:        "The Perceptually-enabled Task Guidance (PTG)"
 
 
 # URL
@@ -24,8 +24,8 @@ highlighter:        rouge
 nav:
   - name:           "home"
     href:           "/"
-  - name:           "about"
-    href:           "/about"
+  # - name:           "about"
+  #   href:           "/about"
   - name:           "publications"
     href:           "/publication"
   - name:           "people"
@@ -34,8 +34,8 @@ nav:
     # href:           "/blog"
 #   - name:           "abstracts"
 #     href:           "/abstracts"
-  - name:           "lab teachings"
-    href:           "/presentations"
+  # - name:           "lab teachings"
+  #   href:           "/presentations"
 
 # Sass
 sass:

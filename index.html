@@ -2,49 +2,36 @@
 layout: default
 ---
 
-<div class='container'>
-    <header class="masthead text-center">
+<div class='container' style="max-width: 1400px; margin: 0 auto; padding: 0 20px;">
+  <header class="masthead text-center">
 
-      <img class='img-responsive center-block' src="/images/people/KLab_Fall_2021.png" width="100%" height="100%" />
+      <img class='img-responsive center-block' src="/images/people/img_ptg/ptg-619-316.png" width="50%" height="100%" />
 
       <p>
-      <i>Causality and Machine learning. <br> Machine Learning and Deep Learning for Neuroscience.<br>
+      <h2>PTG
+      </h2>  
+      The Perceptually-enabled Task Guidance (PTG) program aims to develop artificial intelligence (AI) technologies to help users perform complex physical tasks while making them more versatile by expanding their skillset and more proficient by reducing their errors. PTG seeks to develop methods, techniques, and technology for artificially intelligent assistants that provide just-in-time visual and audio feedback to help with task execution. The goal is to provide users of PTG assistants with wearable sensors (head-mounted cameras and microphones) that allow the assistant to see what they see and hear and what they hear, and augmented reality (AR) headsets that allow assistants to provide feedback through speech and aligned graphics. The target assistants will learn about tasks relevant to the user by ingesting knowledge from checklists, illustrated manuals, training videos, and other sources of information. They will then combine this task knowledge with a perceptual model of the environment to support mixed-initiative and task-focused user dialogs. The dialogs will assist a user in completing a task, identifying and correcting an error during a task, and instructing them through a new task, taking into consideration the user’s level of expertise.
+
+
+      <!-- <i>Causality and Machine learning. <br> Machine Learning and Deep Learning for Neuroscience.<br>
       Neuroscience for Deep Learning.<br>
-      and Machine Learning for Movement/Meta-Science.</i>
+      and Machine Learning for Movement/Meta-Science.</i> -->
 
         <span style="display: block; margin-bottom: 3em"></span>
 
-      <a href="https://github.com/KordingLab"><i class="fa fa-github"></i> KordingLab</a>&nbsp;&nbsp;&nbsp;
+      <!-- <a href="https://github.com/KordingLab"><i class="fa fa-github"></i> KordingLab</a>&nbsp;&nbsp;&nbsp;
       <a href="https://twitter.com/KordingLab"><i class="fa fa-twitter"></i> KordingLab</a>&nbsp;&nbsp;&nbsp;
-      <a href="mailto:kording@upenn.edu"><i class="fa fa-envelope-o"></i> kording@upenn.edu</a>
+      <a href="mailto:kording@upenn.edu"><i class="fa fa-envelope-o"></i> kording@upenn.edu</a> -->
       </p>
 
-      <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
-        <div style="text-align:left">
-          <h3> Recent News </h3>
-          <u>Happenings of the last few months</u>
-          <span style="display: block; margin-bottom: 1em"></span>
-          <div class="news">
-              {% capture now %}{{'now' | date: '%s' | minus: 7776000 %}}{% endcapture %}
-              <ul style="list-style-position:outside;padding:20px" >
-                {% for new in site.data.news %}
-                  {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
-                  {% if date > now %}
-                    <li>
-                      <span>
-                        {{ new.details }}
-                      </span>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-          </div>
-        </div >
-      </div>
+
+     
 
 
 
-      <span style="display: block; margin-bottom: 3em"></span>
+
+
+      <!-- <span style="display: block; margin-bottom: 3em"></span>
 
 
       <a class="twitter-timeline" href="https://twitter.com/KordingLab" data-widget-id="695051708246941697">Tweets by @KordingLab</a>
@@ -53,7 +40,245 @@ layout: default
       <span style="display: block; margin-bottom: 3em"></span>
       Department of Bioengineering and Department of Neuroscience at University of Pennsylvania<br>
       404 Richards Building, 3700 Hamilton Walk, Philadelphia, PA 19104
-      <span style="display: block; margin-bottom: 3em"></span>
+      <span style="display: block; margin-bottom: 3em"></span> -->
 
     </header>
+    <body style="font-family: 'Arial', sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4;">
+
+      <!-- Main Section -->
+      <section style="max-width: 1200px; margin: 0 auto; padding: 40px 20px;">
+        
+        <!-- Header Section -->
+        <header style="text-align: left; margin-bottom: 40px;">
+          <h1 style="font-size: 2.5em; color: #333; margin: 0;">Data Provenance and Analytics</h1>
+        </header>
+        <hr style="border: 1px solid #ccc; margin: 20px 0;">
+    
+        <!-- Tools Section -->
+        <article class="tool-item">
+          <!-- Image Section -->
+          <div class="tool-image">
+            <img 
+              src="/images/people/img_ptg/teaser2_ARGUS.png" 
+              alt="Illustration of the research project">
+          </div>
+          <!-- Tool Info Section -->
+          <div class="tool-info">
+            <a href="https://github.com/VIDA-NYU/ARGUS" class="tool-title">
+              ARGUS: Augmented Reality Guidance and User-modeling System
+            </a>
+            <div class="tool-links">
+              <a href="https://github.com/VIDA-NYU/ARGUS">GitHub Repo</a>
+            </div>
+            <p class="tool-abstract">
+              ARGUS enables the interactive exploration and debugging of all components of the data ecosystem 
+              needed to support intelligent task guidance. ARGUS has two operation modes: “Online” (during task performance), 
+              and “Offline” (after performance). Users can use these two modes separately if needed, for instance, 
+              to perform real-time debugging through the online mode. In another usage scenario, users may start by using 
+              the online mode to record a session and then explore and analyze the data in detail using the offline mode.
+            </p>
+          </div>
+        </article>
+    
+        <article class="tool-item">
+          <!-- Image Section -->
+          <div class="tool-image">
+            <img 
+              src="/images/people/img_ptg/teaser2_ARGUS.png" 
+              alt="Illustration of the research project">
+          </div>
+          <!-- Tool Info Section -->
+          <div class="tool-info">
+            <a href="https://github.com/VIDA-NYU/HuBar" class="tool-title">
+              HuBar: A Visual Analytics Tool to Explore Human Behaviour based on fNIRS in AR guidance systems
+            </a>
+            <div class="tool-links">
+              <a href="https://github.com/VIDA-NYU/HuBar">GitHub Repo</a>
+            </div>
+            <p class="tool-abstract">
+              To effectively model performer behavior, we must determine a method of summarizing and comparing performer 
+              behavior across sessions. This necessitates a meaningful way to compare multimodal time series data (e.g., 
+              gaze origin and direction, acceleration, angular velocity, fNIRS sensor readings) of different durations. 
+              HuBar provides a visual analytics tool for summarizing and comparing task performance sessions in AR, 
+              highlighting correlations between cognitive workload and performer motion data.
+            </p>
+          </div>
+        </article>
+        <article class="tool-item">
+          <!-- Image Section -->
+          <div class="tool-image">
+            <img 
+              src="/images/people/img_ptg/teaser2_ARGUS.png" 
+              alt="Illustration of the research project">
+          </div>
+          <!-- Tool Info Section -->
+          <div class="tool-info">
+            <a href="https://github.com/egm68/ARPOV" class="tool-title">
+              ARPOV: Expanding Visualization of Object Detection in AR with Panoramic Mosaic Stitching            
+            </a>
+            <div class="tool-links">
+              <a href="https://github.com/egm68/ARPOV">GitHub Repo</a>
+            </div>
+            <p class="tool-abstract">
+              Inspired by the Panorama View of ARGUS, we built ARPOV: a standalone visual analytics tool that enables
+              troubleshooting of object detection results, with features tailored to analyzing object detection (ground truth
+              and predicted bounding boxes) performed on RGB videos, such as those captured by current AR headsets.
+              This video must contain multiple views of the same scene but need not be captured by a stereoscopic camera.
+              The following sections describe the primary components of the ARPOV interface, all of which are linked and
+              interactive. 
+            </p>
+          </div>
+        </article>
+
+        <!-- Header Section -->
+        <header style="text-align: left; margin-bottom: 40px;">
+          <h1 style="font-size: 2.5em; color: #333; margin: 0;">Augmented Reality User Interface</h1>
+        </header>
+        <hr style="border: 1px solid #ccc; margin: 20px 0;">
+            
+        <article class="tool-item">
+          <!-- Image Section -->
+          <div class="tool-image">
+            <img 
+              src="/images/people/img_ptg/teaser2_ARGUS.png" 
+              alt="Illustration of the research project">
+          </div>
+          <!-- Tool Info Section -->
+          <div class="tool-info">
+            <a class="tool-title">
+              AdaptiveCoPilot: Neuro-Adaptive Pre-Flight Guidance           
+            </a>
+            <!-- <div class="tool-links">
+              <a href="https://github.com/egm68/ARPOV">GitHub Repo</a>
+            </div> -->
+            <p class="tool-abstract">
+              To build an adaptive guidance system for aviation training, we developed AdaptiveCoPilot, a neuroadaptive,
+              multimodal feedback system designed for a VR cockpit environment. This system dynamically adjusts
+              task guidance based on pilots’ cognitive states, which are measured using fNIRS. By monitoring cognitive facets such as working memory, perception, and attention,
+              AdaptiveCoPilot adapts the modality and content of feedback in real time, delivering visual, auditory, and text-
+              based guidance tailored to the user’s workload. The design was informed by a formative study
+              involving three pilots, which identified areas of high cognitive demand in aircraft operation and the challenges of
+              selecting appropriate feedback modalities. These findings guided the development of neuroadaptive strategies
+              to maintain optimal workload states and improve task performance during complex aviation procedures.
+            </p>
+          </div>
+        </article>
+        <article class="tool-item">
+          <!-- Image Section -->
+          <div class="tool-image">
+            <img 
+              src="/images/people/img_ptg/teaser2_ARGUS.png" 
+              alt="Illustration of the research project">
+          </div>
+          <!-- Tool Info Section -->
+          <div class="tool-info">
+            <a class="tool-title">
+              Satori: Towards the Proactive Assistant            
+            </a>
+            <!-- <div class="tool-links">
+              <a href="https://github.com/egm68/ARPOV">GitHub Repo</a>
+            </div> -->
+            <p class="tool-abstract">
+              To build the adaptive UI, we propose a belief-desire-intention (BDI) user-modeling-based proactive assistance
+              method called Satori, designed to dynamically adjust task guidance based on the user’s context, environment,
+              and actions. This design draws upon insights from two formative studies aimed at identifying the challenges
+              and opportunities in creating adaptive AR interfaces.
+            </p>
+          </div>
+        </article>
+        <article class="tool-item">
+          <!-- Image Section -->
+          <div class="tool-image">
+            <img 
+              src="/images/people/img_ptg/teaser2_ARGUS.png" 
+              alt="Illustration of the research project">
+          </div>
+          <!-- Tool Info Section -->
+          <div class="tool-info">
+            <a class="tool-title">
+              ARTiST: AR Text Simplification for Task-Efficient UI        
+            </a>
+            <!-- <div class="tool-links">
+              <a href="https://github.com/egm68/ARPOV">GitHub Repo</a>
+            </div> -->
+            <p class="tool-abstract">
+              The AR interface must effectively support task performance. To achieve this, we focused on optimizing both
+              text and graphic displays for each task step. To enhance text display, we implemented ARTiST, an
+              automated text simplification system designed to produce shorter and more understandable instructions. This
+              approach aims to improve task efficiency by ensuring that users can quickly grasp the necessary information
+              without being overwhelmed by complex language.
+            </p>
+          </div>
+        </article>
+        
+    
+        <!-- Recent News Section -->
+        <!-- <hr style="border: 1px solid #ccc; margin: 20px 0;">
+        <div class="recent-news">
+          <h3>Recent News</h3>
+          <u>Happenings of the last few months</u>
+          <div class="news">
+            {% capture now %}{{ 'now' | date: '%s' | minus: 7776000 %}}{% endcapture %}
+            <ul>
+              {% for new in site.data.news %}
+                {% capture date %}{{ new.date | date: '%s' | plus: 0 %}}{% endcapture %}
+                {% if date > now %}
+                  <li>{{ new.details }}</li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div> -->
+    
+      </section>
+    
+      <style>
+        .tool-item {
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          gap: 20px;
+          margin-top: 20px;
+          align-items: start;
+        }
+        .tool-image img {
+          width: 100%;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .tool-info {
+          color: #555;
+        }
+        .tool-title {
+          font-size: 1.8em;
+          font-weight: bold;
+          color: #2a6d92;
+          text-decoration: none;
+        }
+        .tool-links a {
+          color: #2a6d92;
+          text-decoration: none;
+          margin-right: 10px;
+        }
+        .tool-abstract {
+          margin-top: 20px;
+          font-size: 1.1em;
+          line-height: 1.6;
+          color: #333;
+        }
+        .recent-news {
+          background: #f0f8ff;
+          padding: 25px;
+          border-radius: 10px;
+          border: 1px solid #5d8aa8;
+        }
+        .recent-news ul {
+          list-style-position: outside;
+          padding: 20px;
+        }
+      </style>
+    
+    </body>
+    
+    
+    
 </div>

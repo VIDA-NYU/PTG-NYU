@@ -23,13 +23,13 @@ highlighter:        rouge
 # Navigation
 nav:
   - name:           "home"
-    href:           "/"
+    href:           "/ptg.github.io"
   # - name:           "about"
   #   href:           "/about"
   - name:           "publications"
-    href:           "/publication"
+    href:           "/ptg.github.io/publication"
   - name:           "people"
-    href:           "/people"
+    href:           "/ptg.github.io/people"
   # - name:           "blog"
     # href:           "/blog"
 #   - name:           "abstracts"

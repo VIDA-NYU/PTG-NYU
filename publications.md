@@ -49,7 +49,7 @@ Michael Middleton, Bradley Feest, Brian Falcone, Brian Williamson, Joao Rulff, S
 5th International Neuroergonomics Conference, July 8-12, 2024 ([Conference Program](https://neuroergonomics2024.inria.fr/files/2024/07/Neuroergonomics_Booklet-Conference_VF-1.pdf))
 
 
-_SHET: A Visual Analytics Tool to Explore Brain Activity with fNIRS in Augmented Reality Tasks_ for 5th International Neuroergonomics Conference<br>
+_SHET: A Visual Analytics Tool to Explore Brain Activity with fNIRS in Augmented Reality Tasks_<br>
 Sonia Castelo, Michael Middleton, Joao Rulff, Parikshit Solunke, Ryan McKendrick, Claudio Silva<br>
 5th International Neuroergonomics Conference, July 8-12, 2024 ([Conference Program](https://neuroergonomics2024.inria.fr/files/2024/07/Neuroergonomics_Booklet-Conference_VF-1.pdf))
 

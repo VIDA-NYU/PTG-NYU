@@ -39,6 +39,12 @@ _ARTiST: Automated Text Simplification for Task Guidance in Augmented Reality_<b
 Guande Wu, Jing Qian, Sonia Castelo Quispe, Shaoyu Chen, João Rulff, Claudio Silva<br>
 Proceedings of the CHI Conference on Human Factors in Computing Systems, 2024 ([Article](https://dl.acm.org/doi/pdf/10.1145/3613904.3642772))
 
+_ARPOV: Expanding Visualization of Object Detection in AR with Panoramic Mosaic Stitching_<br> 
+🏅 Best Paper Honorable Mention SIBGRAPI 2024<br>
+Erin McGowan, Ethan Brewer, Claudio Silva<br>
+2024 37th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI), 2024, 1–6 ([Article](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10716346))
+
+
 _Your Co-Workers Matter: Evaluating Collaborative Capabilities of Language Models in Blocks World_<br>
 Guande Wu, Chen Zhao, Claudio Silva, He He<br>
 ACL Findings 2024, 2024 ([Article](https://arxiv.org/pdf/2404.00246))
@@ -57,6 +63,7 @@ Sonia Castelo, Michael Middleton, Joao Rulff, Parikshit Solunke, Ryan McKendrick
 ### 2023
 
 _Argus: Visualization of AI-Assisted Task Guidance in AR_<br>
+🏅 Best Paper Honorable Mention IEEE VIS 2023<br>
 Sonia Castelo, Joao Rulff, Erin McGowan, Bea Steers, Guande Wu, Shaoyu Chen, Iran Roman, Roque Lopez, Ethan Brewer, Chen Zhao, Jing Qian, Kyunghyun Cho, He He, Qi Sun, Huy Vo, Juan Bello, Michael Krone, Claudio Silva<br>
 IEEE Transactions on Visualization and Computer Graphics, 2023 ([Article](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10305427))
 
@@ -71,3 +78,4 @@ Guande Wu, Jing Qian, Sonia Castelo, Shaoyu Chen, Joao Rulff, Claudio Silva<br>
 ### Copyright Notice
 
 The documents listed here are available for downloading and have been provided as a means to ensure timely dissemination of scholarly and technical work on a noncommercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders, notwithstanding that they have offered their works here electronically. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author's copyright. These works may not be re-posted without the explicit permission of the copyright holder.
+

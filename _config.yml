@@ -9,7 +9,7 @@ description:        "The Perceptually-enabled Task Guidance (PTG)"
 
 
 # URL
-url:                http://kordinglab.com
+url:                https://vida-nyu.github.io/ptg.github.io
 baseurl:            
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html

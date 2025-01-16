@@ -9,7 +9,7 @@ description:        "The Perceptually-enabled Task Guidance (PTG)"
 
 
 # URL
-url:                https://ptg.github.io
+url:                https://vida-nyu.github.io/ptg.github.io
 baseurl:            
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
@@ -23,13 +23,13 @@ highlighter:        rouge
 # Navigation
 nav:
   - name:           "home"
-    href:           "/"
+    href:           "/ptg.github.io"
   # - name:           "about"
   #   href:           "/about"
   - name:           "publications"
-    href:           "/publication"
+    href:           "/ptg.github.io/publication"
   - name:           "people"
-    href:           "/people"
+    href:           "/ptg.github.io/people"
   # - name:           "blog"
     # href:           "/blog"
 #   - name:           "abstracts"
